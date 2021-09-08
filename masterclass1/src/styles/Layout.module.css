@@ -1,12 +1,13 @@
-.vermelho {
+.conteudo {
   background-color: #751212;
   color: #ffffff;
   text-align: center;
 
+  height: calc(100vh - 3rem - 4rem);
   width: 100vw;
-  height: 100vh;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }

@@ -1,11 +1,9 @@
-import styles from '../styles/Estiloso.module.css';
-import NavBar from './NavBar';
+import LayOut from '../components/LayOut';
 
 const Estiloso = () => (
-  <div className={styles.vermelho}>
-    <NavBar />
+  <LayOut>
     <h1>Estilo usando CSS Módulos</h1>
-  </div>
+  </LayOut>
 );
 
 export default Estiloso;

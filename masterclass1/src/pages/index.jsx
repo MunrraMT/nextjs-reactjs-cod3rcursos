@@ -1,9 +1,5 @@
-import NavBar from './NavBar';
+import LayOut from '../components/LayOut';
 
-const Inicio = () => (
-  <div>
-    <NavBar />
-  </div>
-);
+const Inicio = () => <LayOut titulo="Página Inicial" />;
 
 export default Inicio;

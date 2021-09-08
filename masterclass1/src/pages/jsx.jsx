@@ -1,4 +1,5 @@
-import NavBar from './NavBar';
+import LayOut from '../components/LayOut';
+import NavBar from '../components/NavBar';
 
 const Jsx = () => {
   const titulo = <h1>JSX é um conceito central</h1>;
@@ -9,8 +10,7 @@ const Jsx = () => {
   const subTitulo = () => <h2>{'muito legal'.toUpperCase()}</h2>;
 
   return (
-    <main>
-      <NavBar />
+    <LayOut>
       {titulo}
 
       <h2>{a * b}</h2>
@@ -18,7 +18,7 @@ const Jsx = () => {
       {subTitulo()}
 
       <code>{JSON.stringify({ nome: 'João', idade: 30 })}</code>
-    </main>
+    </LayOut>
   );
 };
 
