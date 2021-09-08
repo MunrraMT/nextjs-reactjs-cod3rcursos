@@ -1,6 +1,6 @@
-const Cabecalho = () => (
+const Cabecalho = ({ titulo }) => (
   <header>
-    <h1>Fundamentos de Nextjs & ReactJS</h1>
+    <h1>{titulo}</h1>
   </header>
 );
 

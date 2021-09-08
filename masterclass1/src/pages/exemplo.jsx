@@ -2,7 +2,8 @@ import Cabecalho from '../components/Cabecalho';
 
 const Exemplo = () => (
   <>
-    <Cabecalho />
+    <Cabecalho titulo="Fundamentos de Nextjs & ReactJS" />
+    <Cabecalho titulo="Aprenda NextJS na prática" />
     <h2>Exemplo</h2>
   </>
 );
