@@ -1,3 +1,5 @@
+import NavBar from './NavBar';
+
 const Jsx = () => {
   const titulo = <h1>JSX é um conceito central</h1>;
 
@@ -8,6 +10,7 @@ const Jsx = () => {
 
   return (
     <main>
+      <NavBar />
       {titulo}
 
       <h2>{a * b}</h2>

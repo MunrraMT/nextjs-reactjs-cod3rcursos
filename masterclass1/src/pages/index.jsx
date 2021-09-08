@@ -1,7 +1,8 @@
+import NavBar from './NavBar';
+
 const Inicio = () => (
   <div>
-    <h1>Fundamentos de NextJS & ReactJS</h1>
-    <h2>Vamos estudar esse framework</h2>
+    <NavBar />
   </div>
 );
 
