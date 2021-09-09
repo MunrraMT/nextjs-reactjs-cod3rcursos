@@ -8,7 +8,8 @@ const NavBar = () => (
     <Navegador destino="/estiloso" texto="Estiloso" />
     <Navegador destino="/jsx" texto="JSX" />
     <Navegador destino="/exemplo" texto="Exemplo" />
-    <Navegador destino="/navegacao" texto="Navegação" />
+    <Navegador destino="/navegacao/" texto="Navegação S" />
+    <Navegador destino="/cliente/sp/campinas" texto="Navegação D" />
   </nav>
 );
 
