@@ -1,0 +1,12 @@
+.a {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}

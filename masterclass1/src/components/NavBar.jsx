@@ -1,13 +1,13 @@
 import styles from '../styles/NavBar.module.css';
 
-import Link from 'next/link';
+import Navegador from './Navegador';
 
 const NavBar = () => (
   <nav className={styles.nav}>
-    <Link href="/">Home</Link>
-    <Link href="/estiloso">Estiloso</Link>
-    <Link href="/jsx">JSX</Link>
-    <Link href="/exemplo">Exemplo</Link>
+    <Navegador destino="/" texto="Home" />
+    <Navegador destino="/estiloso" texto="Estiloso" />
+    <Navegador destino="/jsx" texto="JSX" />
+    <Navegador destino="/exemplo" texto="Exemplo" />
   </nav>
 );
 
