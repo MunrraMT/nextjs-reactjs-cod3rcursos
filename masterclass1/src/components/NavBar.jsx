@@ -10,6 +10,7 @@ const NavBar = () => (
     <Navegador destino="/exemplo" texto="Exemplo" />
     <Navegador destino="/navegacao/" texto="Navegação S" />
     <Navegador destino="/cliente/sp/campinas" texto="Navegação D" />
+    <Navegador destino="/estado" texto="Componente com Estado" />
   </nav>
 );
 
